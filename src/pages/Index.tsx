@@ -14,7 +14,7 @@ const Index = () => {
         <div className="relative max-w-7xl mx-auto px-4 py-20 text-center">
           <div className="mb-8">
             <TrendingUp className="h-16 w-16 text-primary mx-auto mb-4" />
-            <h1 className="text-5xl font-bold mb-4 bg-gradient-to-r from-primary to-success bg-clip-text text-transparent">
+            <h1 className="pb-2 text-4xl font-bold leading-tight sm:text-5xl bg-gradient-to-r from-primary to-success bg-clip-text text-transparent">
               Stock Market Trading Game
             </h1>
             <br /><br /><br />
