@@ -23,6 +23,8 @@ interface Stock {
   symbol: string;
   name: string;
   current_price: number;
+  min_price: number | null;
+  max_price: number | null;
 }
 
 interface Portfolio {
