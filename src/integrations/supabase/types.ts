@@ -152,6 +152,8 @@ export type Database = {
         Row: {
           created_at: string
           id: string
+          max_price: number | null
+          min_price: number | null
           price: number
           round_number: number
           stock_id: string
@@ -159,6 +161,8 @@ export type Database = {
         Insert: {
           created_at?: string
           id?: string
+          max_price?: number | null
+          min_price?: number | null
           price: number
           round_number: number
           stock_id: string
@@ -166,6 +170,8 @@ export type Database = {
         Update: {
           created_at?: string
           id?: string
+          max_price?: number | null
+          min_price?: number | null
           price?: number
           round_number?: number
           stock_id?: string
