@@ -33,7 +33,7 @@ const Index = () => {
                 </div>
                 <CardTitle className="text-2xl">Team Player</CardTitle>
                 <CardDescription className="text-base">
-                  Join the trading competition with your team of 4 players
+                  Join the trading competition with your team
                 </CardDescription>
               </CardHeader>
               <CardContent className="space-y-4">
